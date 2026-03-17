@@ -1027,6 +1027,16 @@ export const banners: { [key: number]: Banner } = {
     featuredRare: ['bennett', 'xiangling', 'sucrose'],
     timezoneDependent: true,
   },
+  300097: {
+    name: "Void Star's Advent",
+    image: 2,
+    shortName: 'Skirk',
+    start: '2026-03-17 18:00:00',
+    end: '2026-04-07 14:59:00',
+    color: '#adcdff',
+    featured: ['skirk', 'escoffier'],
+    featuredRare: ['dahlia', 'candace', 'charlotte'],
+  },
 
   400001: {
     name: 'Epitome Invocation',
@@ -1326,7 +1336,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Redhorn',
     color: '#b042f5',
     featured: ['redhorn_stonethresher', 'skyward_harp'],
-    featuredRare: ['the_alley_flash', 'mitternachts_waltz', 'the_bell', 'favonius_lance', 'sacrificial_fragments'],
+    featuredRare: [
+      'the_alley_flash',
+      'mitternachts_waltz',
+      'the_bell',
+      'favonius_lance',
+      'sacrificial_fragments',
+    ],
   },
   400023: {
     name: 'Epitome Invocation',
@@ -1336,7 +1352,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Queller',
     color: '#b042f5',
     featured: ['calamity_queller', 'primordial_jade_winged-spear'],
-    featuredRare: ['lithic_spear', 'the_flute', 'favonius_greatsword', 'the_widsith', 'favonius_warbow'],
+    featuredRare: [
+      'lithic_spear',
+      'the_flute',
+      'favonius_greatsword',
+      'the_widsith',
+      'favonius_warbow',
+    ],
     timezoneDependent: true,
   },
   400024: {
@@ -1347,7 +1369,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Amos',
     color: '#b042f5',
     featured: ['amos_bow', 'vortex_vanquisher'],
-    featuredRare: ['lithic_blade', 'favonius_sword', 'dragons_bane', 'favonius_codex', 'sacrificial_bow'],
+    featuredRare: [
+      'lithic_blade',
+      'favonius_sword',
+      'dragons_bane',
+      'favonius_codex',
+      'sacrificial_bow',
+    ],
   },
   400025: {
     name: 'Epitome Invocation',
@@ -1357,7 +1385,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Verity',
     color: '#b042f5',
     featured: ['kaguras_verity', 'primordial_jade_cutter'],
-    featuredRare: ['wavebreakers_fin', 'sacrificial_sword', 'rainslasher', 'eye_of_perception', 'the_stringless'],
+    featuredRare: [
+      'wavebreakers_fin',
+      'sacrificial_sword',
+      'rainslasher',
+      'eye_of_perception',
+      'the_stringless',
+    ],
     timezoneDependent: true,
   },
   400026: {
@@ -1368,7 +1402,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Engulfing',
     color: '#b042f5',
     featured: ['engulfing_lightning', 'everlasting_moonglow'],
-    featuredRare: ['akuoumaru', 'mouuns_moon', 'lions_roar', 'favonius_lance', 'sacrificial_fragments'],
+    featuredRare: [
+      'akuoumaru',
+      'mouuns_moon',
+      'lions_roar',
+      'favonius_lance',
+      'sacrificial_fragments',
+    ],
   },
   400027: {
     name: 'Epitome Invocation',
@@ -1378,7 +1418,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Haran',
     color: '#ffb169',
     featured: ['haran_geppaku_futsu', 'elegy_for_the_end'],
-    featuredRare: ['the_flute', 'sacrificial_greatsword', 'dragons_bane', 'the_widsith', 'rust'],
+    featuredRare: [
+      'the_flute',
+      'sacrificial_greatsword',
+      'dragons_bane',
+      'the_widsith',
+      'rust',
+    ],
     timezoneDependent: true,
   },
   400028: {
@@ -1389,7 +1435,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Mistsplitter',
     color: '#eae5e1',
     featured: ['mistsplitter_reforged', 'the_unforged'],
-    featuredRare: ['favonius_sword', 'the_bell', 'favonius_lance', 'favonius_codex', 'favonius_warbow'],
+    featuredRare: [
+      'favonius_sword',
+      'the_bell',
+      'favonius_lance',
+      'favonius_codex',
+      'favonius_warbow',
+    ],
   },
   400029: {
     name: 'Epitome Invocation',
@@ -1399,7 +1451,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Aqua',
     color: '#eae5e1',
     featured: ['aqua_simulacra', 'primordial_jade_winged-spear'],
-    featuredRare: ['lithic_spear', 'sacrificial_sword', 'favonius_greatsword', 'eye_of_perception', 'sacrificial_bow'],
+    featuredRare: [
+      'lithic_spear',
+      'sacrificial_sword',
+      'favonius_greatsword',
+      'eye_of_perception',
+      'sacrificial_bow',
+    ],
   },
   400030: {
     name: 'Epitome Invocation',
@@ -1409,7 +1467,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Redhorn',
     color: '#eae5e1',
     featured: ['redhorn_stonethresher', 'memory_of_dust'],
-    featuredRare: ['lithic_blade', 'lions_roar', 'dragons_bane', 'sacrificial_fragments', 'the_stringless'],
+    featuredRare: [
+      'lithic_blade',
+      'lions_roar',
+      'dragons_bane',
+      'sacrificial_fragments',
+      'the_stringless',
+    ],
   },
   400031: {
     name: 'Epitome Invocation',
@@ -1419,7 +1483,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Freedom-Sworn',
     color: '#ffb169',
     featured: ['freedom-sworn', 'lost_prayer_to_the_sacred_winds'],
-    featuredRare: ['the_alley_flash', 'mitternachts_waltz', 'rainslasher', 'favonius_lance', 'the_widsith'],
+    featuredRare: [
+      'the_alley_flash',
+      'mitternachts_waltz',
+      'rainslasher',
+      'favonius_lance',
+      'the_widsith',
+    ],
     timezoneDependent: true,
   },
   400032: {
@@ -1430,7 +1500,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Thundering',
     color: '#eae5e1',
     featured: ['thundering_pulse', 'summit_shaper'],
-    featuredRare: ['wine_and_song', 'alley_hunter', 'the_flute', 'sacrificial_greatsword', 'dragons_bane'],
+    featuredRare: [
+      'wine_and_song',
+      'alley_hunter',
+      'the_flute',
+      'sacrificial_greatsword',
+      'dragons_bane',
+    ],
   },
   400033: {
     name: 'Epitome Invocation',
@@ -1440,7 +1516,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Hunters',
     color: '#ffb169',
     featured: ['hunters_path', 'vortex_vanquisher'],
-    featuredRare: ['favonius_sword', 'the_bell', 'favonius_lance', 'favonius_codex', 'the_stringless'],
+    featuredRare: [
+      'favonius_sword',
+      'the_bell',
+      'favonius_lance',
+      'favonius_codex',
+      'the_stringless',
+    ],
     timezoneDependent: true,
   },
   400034: {
@@ -1451,7 +1533,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Amos',
     color: '#eae5e1',
     featured: ['amos_bow', 'everlasting_moonglow'],
-    featuredRare: ['sacrificial_sword', 'favonius_greatsword', 'dragons_bane', 'eye_of_perception', 'rust'],
+    featuredRare: [
+      'sacrificial_sword',
+      'favonius_greatsword',
+      'dragons_bane',
+      'eye_of_perception',
+      'rust',
+    ],
   },
   400035: {
     name: 'Epitome Invocation',
@@ -1461,7 +1549,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Scarlet',
     color: '#ffb169',
     featured: ['staff_of_the_scarlet_sands', 'elegy_for_the_end'],
-    featuredRare: ['makhaira_aquamarine', 'lions_roar', 'favonius_lance', 'sacrificial_fragments', 'favonius_warbow'],
+    featuredRare: [
+      'makhaira_aquamarine',
+      'lions_roar',
+      'favonius_lance',
+      'sacrificial_fragments',
+      'favonius_warbow',
+    ],
     timezoneDependent: true,
   },
   400036: {
@@ -1472,7 +1566,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Nisut',
     color: '#eae5e1',
     featured: ['key_of_khaj-nisut', 'primordial_jade_cutter'],
-    featuredRare: ['xiphos_moonlight', 'wandering_evenstar', 'rainslasher', 'dragons_bane', 'sacrificial_bow'],
+    featuredRare: [
+      'xiphos_moonlight',
+      'wandering_evenstar',
+      'rainslasher',
+      'dragons_bane',
+      'sacrificial_bow',
+    ],
   },
   400037: {
     name: 'Epitome Invocation',
@@ -1482,7 +1582,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Dreams',
     color: '#ffb169',
     featured: ['a_thousand_floating_dreams', 'thundering_pulse'],
-    featuredRare: ['the_flute', 'sacrificial_greatsword', 'favonius_lance', 'the_widsith', 'rust'],
+    featuredRare: [
+      'the_flute',
+      'sacrificial_greatsword',
+      'favonius_lance',
+      'the_widsith',
+      'rust',
+    ],
     timezoneDependent: true,
   },
   400038: {
@@ -1493,7 +1599,13 @@ export const banners: { [key: number]: Banner } = {
     shortName: 'Kagura',
     color: '#eae5e1',
     featured: ['kaguras_verity', 'polar_star'],
-    featuredRare: ['favonius_sword', 'the_bell', 'dragons_bane', 'favonius_codex', 'the_stringless'],
+    featuredRare: [
+      'favonius_sword',
+      'the_bell',
+      'dragons_bane',
+      'favonius_codex',
+      'the_stringless',
+    ],
   },
   400039: {
     name: 'Epitome Invocation',
@@ -1520,7 +1632,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-01-17 14:59:59',
     color: '#D0AEF2',
     featured: ['engulfing_lightning', 'haran_geppaku_futsu'],
-    featuredRare: ['akuoumaru', 'mouuns_moon', 'lions_roar', 'favonius_lance', 'sacrificial_fragments'],
+    featuredRare: [
+      'akuoumaru',
+      'mouuns_moon',
+      'lions_roar',
+      'favonius_lance',
+      'sacrificial_fragments',
+    ],
   },
   400041: {
     name: 'Epitome Invocation',
@@ -1530,7 +1648,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-02-07 17:59:59',
     color: '#ffb169',
     featured: ['light_of_foliar_incision', 'primordial_jade_winged-spear'],
-    featuredRare: ['lithic_spear', 'the_flute', 'rainslasher', 'the_widsith', 'sacrificial_bow'],
+    featuredRare: [
+      'lithic_spear',
+      'the_flute',
+      'rainslasher',
+      'the_widsith',
+      'sacrificial_bow',
+    ],
     timezoneDependent: true,
   },
   400042: {
@@ -1541,7 +1665,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-02-28 14:59:59',
     color: '#eae5e1',
     featured: ['staff_of_homa', 'aqua_simulacra'],
-    featuredRare: ['lithic_blade', 'favonius_sword', 'dragons_bane', 'favonius_codex', 'rust'],
+    featuredRare: [
+      'lithic_blade',
+      'favonius_sword',
+      'dragons_bane',
+      'favonius_codex',
+      'rust',
+    ],
   },
   400043: {
     name: 'Epitome Invocation',
@@ -1551,7 +1681,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-03-21 17:59:59',
     color: '#ffb169',
     featured: ['beacon_of_the_reed_sea', 'staff_of_the_scarlet_sands'],
-    featuredRare: ['the_alley_flash', 'alley_hunter', 'sacrificial_greatsword', 'dragons_bane', 'eye_of_perception'],
+    featuredRare: [
+      'the_alley_flash',
+      'alley_hunter',
+      'sacrificial_greatsword',
+      'dragons_bane',
+      'eye_of_perception',
+    ],
     timezoneDependent: true,
   },
   400044: {
@@ -1562,7 +1698,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-04-11 14:59:59',
     color: '#eae5e1',
     featured: ['calamity_queller', 'mistsplitter_reforged'],
-    featuredRare: ['wine_and_song', 'sacrificial_sword', 'the_bell', 'favonius_lance', 'favonius_warbow'],
+    featuredRare: [
+      'wine_and_song',
+      'sacrificial_sword',
+      'the_bell',
+      'favonius_lance',
+      'favonius_warbow',
+    ],
   },
   400045: {
     name: 'Epitome Invocation',
@@ -1589,7 +1731,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-05-23 14:59:59',
     color: '#eae5e1',
     featured: ['jadefalls_splendor', 'amos_bow'],
-    featuredRare: ['makhaira_aquamarine', 'wandering_evenstar', 'lions_roar', 'favonius_lance', 'sacrificial_bow'],
+    featuredRare: [
+      'makhaira_aquamarine',
+      'wandering_evenstar',
+      'lions_roar',
+      'favonius_lance',
+      'sacrificial_bow',
+    ],
   },
   400047: {
     name: 'Epitome Invocation',
@@ -1599,7 +1747,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-06-13 17:59:59',
     color: '#ffb169',
     featured: ['thundering_pulse', 'kaguras_verity'],
-    featuredRare: ['akuoumaru', 'the_flute', 'dragons_bane', 'the_widsith', 'rust'],
+    featuredRare: [
+      'akuoumaru',
+      'the_flute',
+      'dragons_bane',
+      'the_widsith',
+      'rust',
+    ],
     timezoneDependent: true,
   },
   400048: {
@@ -1610,7 +1764,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-07-04 14:59:59',
     color: '#eae5e1',
     featured: ['freedom-sworn', 'light_of_foliar_incision'],
-    featuredRare: ['wavebreakers_fin', 'mouuns_moon', 'favonius_sword', 'sacrificial_greatsword', 'favonius_codex'],
+    featuredRare: [
+      'wavebreakers_fin',
+      'mouuns_moon',
+      'favonius_sword',
+      'sacrificial_greatsword',
+      'favonius_codex',
+    ],
   },
   400049: {
     name: 'Epitome Invocation',
@@ -1620,7 +1780,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-07-25 17:59:59',
     color: '#ffb169',
     featured: ['song_of_broken_pines', 'lost_prayer_to_the_sacred_winds'],
-    featuredRare: ['the_alley_flash', 'alley_hunter', 'rainslasher', 'favonius_lance', 'eye_of_perception'],
+    featuredRare: [
+      'the_alley_flash',
+      'alley_hunter',
+      'rainslasher',
+      'favonius_lance',
+      'eye_of_perception',
+    ],
     timezoneDependent: true,
   },
   400050: {
@@ -1631,7 +1797,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-08-15 17:59:59',
     color: '#eae5e1',
     featured: ['everlasting_moonglow', 'tulaytullahs_remembrance'],
-    featuredRare: ['wine_and_song', 'lions_roar', 'the_bell', 'dragons_bane', 'favonius_warbow'],
+    featuredRare: [
+      'wine_and_song',
+      'lions_roar',
+      'the_bell',
+      'dragons_bane',
+      'favonius_warbow',
+    ],
   },
   400051: {
     name: 'Epitome Invocation',
@@ -1658,7 +1830,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-09-26 14:59:59',
     color: '#eae5e1',
     featured: ['polar_star', 'vortex_vanquisher'],
-    featuredRare: ['the_flute', 'sacrificial_greatsword', 'dragons_bane', 'the_widsith', 'rust'],
+    featuredRare: [
+      'the_flute',
+      'sacrificial_greatsword',
+      'dragons_bane',
+      'the_widsith',
+      'rust',
+    ],
   },
   400053: {
     name: 'Epitome Invocation',
@@ -1685,7 +1863,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-11-17 14:59:59',
     color: '#eae5e1',
     featured: ['cashflow_supervision', 'elegy_for_the_end'],
-    featuredRare: ['prospectors_drill', 'range_gauge', 'favonius_sword', 'rainslasher', 'eye_of_perception'],
+    featuredRare: [
+      'prospectors_drill',
+      'range_gauge',
+      'favonius_sword',
+      'rainslasher',
+      'eye_of_perception',
+    ],
   },
   400055: {
     name: 'Epitome Invocation',
@@ -1695,7 +1879,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-11-28 17:59:59',
     color: '#ffb169',
     featured: ['splendor_of_tranquil_waters', 'jadefalls_splendor'],
-    featuredRare: ['sacrificial_sword', 'the_bell', 'dragons_bane', 'sacrificial_fragments', 'the_stringless'],
+    featuredRare: [
+      'sacrificial_sword',
+      'the_bell',
+      'dragons_bane',
+      'sacrificial_fragments',
+      'the_stringless',
+    ],
     timezoneDependent: true,
   },
   400056: {
@@ -1706,7 +1896,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2023-12-19 14:59:59',
     color: '#eae5e1',
     featured: ['staff_of_the_scarlet_sands', 'haran_geppaku_futsu'],
-    featuredRare: ['lions_roar', 'the_widsith', 'favonius_warbow', 'favonius_greatsword', 'favonius_lance'],
+    featuredRare: [
+      'lions_roar',
+      'the_widsith',
+      'favonius_warbow',
+      'favonius_greatsword',
+      'favonius_lance',
+    ],
   },
   400057: {
     name: 'Epitome Invocation',
@@ -1716,7 +1912,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-01-09 17:59:59',
     color: '#ffb169',
     featured: ['verdict', 'mistsplitter_reforged'],
-    featuredRare: ['akuoumaru', 'mouuns_moon', 'the_flute', 'dragons_bane', 'favonius_codex'],
+    featuredRare: [
+      'akuoumaru',
+      'mouuns_moon',
+      'the_flute',
+      'dragons_bane',
+      'favonius_codex',
+    ],
     timezoneDependent: true,
   },
   400058: {
@@ -1727,7 +1929,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-01-30 14:59:00',
     color: '#eae5e1',
     featured: ['engulfing_lightning', 'thundering_pulse'],
-    featuredRare: ['wavebreakers_fin', 'favonius_sword', 'rainslasher', 'eye_of_perception', 'rust'],
+    featuredRare: [
+      'wavebreakers_fin',
+      'favonius_sword',
+      'rainslasher',
+      'eye_of_perception',
+      'rust',
+    ],
   },
   400059: {
     name: 'Epitome Invocation',
@@ -1754,7 +1962,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-03-12 14:59:00',
     color: '#eae5e1',
     featured: ['primordial_jade_winged-spear', 'kaguras_verity'],
-    featuredRare: ['lithic_blade', 'lions_roar', 'favonius_lance', 'the_widsith', 'the_stringless'],
+    featuredRare: [
+      'lithic_blade',
+      'lions_roar',
+      'favonius_lance',
+      'the_widsith',
+      'the_stringless',
+    ],
   },
   400061: {
     name: 'Epitome Invocation',
@@ -1764,7 +1978,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-04-02 17:59:00',
     color: '#ffb169',
     featured: ['uraku_misugiri', 'redhorn_stonethresher'],
-    featuredRare: ['the_alley_flash', 'alley_hunter', 'the_`bell`', 'dragons_bane', 'favonius_codex'],
+    featuredRare: [
+      'the_alley_flash',
+      'alley_hunter',
+      'the_`bell`',
+      'dragons_bane',
+      'favonius_codex',
+    ],
     timezoneDependent: true,
   },
   400062: {
@@ -1775,7 +1995,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-04-23 14:59:00',
     color: '#eae5e1',
     featured: ['tome_of_the_eternal_flow', 'freedom-sworn'],
-    featuredRare: ['wine_and_song', 'mitternachts_waltz', 'the_flute', 'favonius_greatsword', 'favonius_lance'],
+    featuredRare: [
+      'wine_and_song',
+      'mitternachts_waltz',
+      'the_flute',
+      'favonius_greatsword',
+      'favonius_lance',
+    ],
   },
   400063: {
     name: 'Epitome Invocation',
@@ -1802,7 +2028,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-06-04 14:59:00',
     color: '#eae5e1',
     featured: ['tulaytullahs_remembrance', 'jadefalls_splendor'],
-    featuredRare: ['prospectors_drill', 'range_gauge', 'favonius_sword', 'rainslasher', 'sacrificial_fragments'],
+    featuredRare: [
+      'prospectors_drill',
+      'range_gauge',
+      'favonius_sword',
+      'rainslasher',
+      'sacrificial_fragments',
+    ],
   },
   400065: {
     name: 'Epitome Invocation',
@@ -1812,7 +2044,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-06-25 17:59:00',
     color: '#ffb169',
     featured: ['absolution', 'light_of_foliar_incision'],
-    featuredRare: ['lithic_spear', 'sacrificial_sword', 'sacrificial_greatsword', 'the_widsith', 'the_stringless'],
+    featuredRare: [
+      'lithic_spear',
+      'sacrificial_sword',
+      'sacrificial_greatsword',
+      'the_widsith',
+      'the_stringless',
+    ],
     timezoneDependent: true,
   },
   400066: {
@@ -1823,7 +2061,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-07-16 14:59:00',
     color: '#eae5e1',
     featured: ['silvershower_heartstrings', 'splendor_of_tranquil_waters'],
-    featuredRare: ['lithic_blade', 'lions_roar', 'favonius_lance', 'favonius_codex', 'sacrificial_bow'],
+    featuredRare: [
+      'lithic_blade',
+      'lions_roar',
+      'favonius_lance',
+      'favonius_codex',
+      'sacrificial_bow',
+    ],
   },
   400067: {
     name: 'Epitome Invocation',
@@ -1833,7 +2077,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-08-06 17:59:00',
     color: '#eae5e1',
     featured: ['verdict', 'key_of_khaj-nisut'],
-    featuredRare: ['xiphos_moonlight', 'the_bell', 'dragons_bane', 'eye_of_perception', 'rust'],
+    featuredRare: [
+      'xiphos_moonlight',
+      'the_bell',
+      'dragons_bane',
+      'eye_of_perception',
+      'rust',
+    ],
     timezoneDependent: true,
   },
   400068: {
@@ -1844,7 +2094,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-08-27 14:59:00',
     color: '#eae5e1',
     featured: ['lumidouce_elegy', 'aqua_simulacra'],
-    featuredRare: ['makhaira_aquamarine', 'wandering_evenstar', 'the_flute', 'favonius_lance', 'favonius_warbow'],
+    featuredRare: [
+      'makhaira_aquamarine',
+      'wandering_evenstar',
+      'the_flute',
+      'favonius_lance',
+      'favonius_warbow',
+    ],
   },
   400069: {
     name: 'Epitome Invocation',
@@ -1871,7 +2127,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-10-08 14:59:00',
     color: '#eae5e1',
     featured: ['fang_of_the_mountain_king', 'engulfing_lightning'],
-    featuredRare: ['sacrificial_sword', 'rainslasher', 'favonius_lance', 'the_widsith', 'sacrificial_bow'],
+    featuredRare: [
+      'sacrificial_sword',
+      'rainslasher',
+      'favonius_lance',
+      'the_widsith',
+      'sacrificial_bow',
+    ],
   },
   400071: {
     name: 'Epitome Invocation',
@@ -1881,7 +2143,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-10-29 17:59:00',
     color: '#eae5e1',
     featured: ['peak_patrol_song', 'uraku_misugiri'],
-    featuredRare: ['sturdy_bone', 'mountain-bracing_bolt', 'sacrificial_greatsword', 'favonius_codex', 'rust'],
+    featuredRare: [
+      'sturdy_bone',
+      'mountain-bracing_bolt',
+      'sacrificial_greatsword',
+      'favonius_codex',
+      'rust',
+    ],
     timezoneDependent: true,
   },
   400072: {
@@ -1892,7 +2160,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-11-19 14:59:00',
     color: '#eae5e1',
     featured: ['a_thousand_floating_dreams', 'staff_of_homa'],
-    featuredRare: ['fruitful_hook', 'lions_roar', 'dragons_bane', 'eye_of_perception', 'favonius_warbow'],
+    featuredRare: [
+      'fruitful_hook',
+      'lions_roar',
+      'dragons_bane',
+      'eye_of_perception',
+      'favonius_warbow',
+    ],
   },
   400073: {
     name: 'Epitome Invocation',
@@ -1902,7 +2176,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2024-12-10 17:59:00',
     color: '#ffb169',
     featured: ['astral_vultures_crimson_plumage', 'the_first_great_magic'],
-    featuredRare: ['waveriding_whirl', 'flower-wreathed_feathers', 'the_flute', 'the_bell', 'favonius_lance'],
+    featuredRare: [
+      'waveriding_whirl',
+      'flower-wreathed_feathers',
+      'the_flute',
+      'the_bell',
+      'favonius_lance',
+    ],
   },
   400074: {
     name: 'Epitome Invocation',
@@ -1928,7 +2208,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2025-01-21 17:59:00',
     color: '#ffb169',
     featured: ['a_thousand_blazing_suns', 'starcallers_watch'],
-    featuredRare: ['lithic_blade', 'sacrificial_sword', 'favonius_lance', 'favonius_codex', 'the_stringless'],
+    featuredRare: [
+      'lithic_blade',
+      'sacrificial_sword',
+      'favonius_lance',
+      'favonius_codex',
+      'the_stringless',
+    ],
     timezoneDependent: true,
   },
   400076: {
@@ -1939,7 +2225,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2025-02-11 14:59:00',
     color: '#eae5e1',
     featured: ['crimson_moons_semblance', 'absolution'],
-    featuredRare: ['lithic_spear', 'lions_roar', 'rainslasher', 'the_widsith', 'sacrificial_bow'],
+    featuredRare: [
+      'lithic_spear',
+      'lions_roar',
+      'rainslasher',
+      'the_widsith',
+      'sacrificial_bow',
+    ],
   },
   400077: {
     name: 'Epitome Invocation',
@@ -1949,7 +2241,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2025-03-04 17:59:00',
     color: '#ffb169',
     featured: ['sunny_morning_sleep-in', 'silvershower_heartstrings'],
-    featuredRare: ['akuoumaru', 'wavebreakers_fin', 'mouuns_moon', 'the_flute', 'eye_of_perception'],
+    featuredRare: [
+      'akuoumaru',
+      'wavebreakers_fin',
+      'mouuns_moon',
+      'the_flute',
+      'eye_of_perception',
+    ],
     timezoneDependent: true,
   },
   400078: {
@@ -1960,7 +2258,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2025-03-25 14:59:00',
     color: '#eae5e1',
     featured: ['splendor_of_tranquil_waters', 'cashflow_supervision'],
-    featuredRare: ['favonius_sword', 'sacrificial_greatsword', 'dragons_bane', 'sacrificial_fragments', 'rust'],
+    featuredRare: [
+      'favonius_sword',
+      'sacrificial_greatsword',
+      'dragons_bane',
+      'sacrificial_fragments',
+      'rust',
+    ],
   },
   400079: {
     name: 'Epitome Invocation',
@@ -1987,7 +2291,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2025-05-06 14:59:00',
     color: '#eae5e1',
     featured: ['peak_patrol_song', 'elegy_for_the_end'],
-    featuredRare: ['sacrificial_sword', 'the_bell', 'favonius_lance', 'favonius_codex', 'favonius_warbow'],
+    featuredRare: [
+      'sacrificial_sword',
+      'the_bell',
+      'favonius_lance',
+      'favonius_codex',
+      'favonius_warbow',
+    ],
   },
   400081: {
     name: 'Epitome Invocation',
@@ -2013,7 +2323,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2025-06-17 14:59:00',
     color: '#eae5e1',
     featured: ['fang_of_the_mountain_king', 'engulfing_lightning'],
-    featuredRare: ['lions_roar', 'favonius_greatsword', 'dragons_bane', 'eye_of_perception', 'the_stringless'],
+    featuredRare: [
+      'lions_roar',
+      'favonius_greatsword',
+      'dragons_bane',
+      'eye_of_perception',
+      'the_stringless',
+    ],
   },
   400083: {
     name: 'Epitome Invocation',
@@ -2040,7 +2356,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2025-07-29 14:59:00',
     color: '#eae5e1',
     featured: ['a_thousand_blazing_suns', 'calamity_queller'],
-    featuredRare: ['the_flute', 'rainslasher', 'dragons_bane', 'sacrificial_fragments', 'rust'],
+    featuredRare: [
+      'the_flute',
+      'rainslasher',
+      'dragons_bane',
+      'sacrificial_fragments',
+      'rust',
+    ],
   },
   400085: {
     name: 'Epitome Invocation',
@@ -2083,7 +2405,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2025-09-30 17:59:00',
     color: '#ffb169',
     featured: ['nightweavers_looking_glass', 'a_thousand_floating_dreams'],
-    featuredRare: ['the_flute', 'sacrificial_greatsword', 'dragons_bane', 'sacrificial_fragments', 'the_stringless'],
+    featuredRare: [
+      'the_flute',
+      'sacrificial_greatsword',
+      'dragons_bane',
+      'sacrificial_fragments',
+      'the_stringless',
+    ],
     timezoneDependent: true,
   },
   400088: {
@@ -2094,7 +2422,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2025-10-21 17:59:00',
     color: '#eae5e1',
     featured: ['bloodsoaked_ruins', 'aqua_simulacra'],
-    featuredRare: ['lions_roar', 'favonius_greatsword', 'favonius_lance', 'favonius_codex', 'sacrificial_bow'],
+    featuredRare: [
+      'lions_roar',
+      'favonius_greatsword',
+      'favonius_lance',
+      'favonius_codex',
+      'sacrificial_bow',
+    ],
   },
   400089: {
     name: 'Epitome Invocation',
@@ -2104,7 +2438,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2025-11-11 17:59:00',
     color: '#ffb169',
     featured: ['reliquary_of_truth', 'splendor_of_tranquil_waters'],
-    featuredRare: ['moonweavers_dawn', 'sacrificers_staff', 'dawning_frost', 'the_bell', 'favonius_warbow'],
+    featuredRare: [
+      'moonweavers_dawn',
+      'sacrificers_staff',
+      'dawning_frost',
+      'the_bell',
+      'favonius_warbow',
+    ],
     timezoneDependent: true,
   },
   400090: {
@@ -2131,7 +2471,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2025-12-23 17:59:00',
     color: '#ffb169',
     featured: ['athame_artis', 'the_daybreak_chronicles'],
-    featuredRare: ['the_alley_flash', 'prospectors_drill', 'wine_and_song', 'rainslasher', 'the_stringless'],
+    featuredRare: [
+      'the_alley_flash',
+      'prospectors_drill',
+      'wine_and_song',
+      'rainslasher',
+      'the_stringless',
+    ],
     timezoneDependent: true,
   },
   400092: {
@@ -2142,7 +2488,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2026-01-13 14:59:00',
     color: '#eae5e1',
     featured: ['vivid_notions', 'peak_patrol_song'],
-    featuredRare: ['fruitful_hook', 'alley_hunter', 'favonius_sword', 'favonius_lance', 'the_widsith'],
+    featuredRare: [
+      'fruitful_hook',
+      'alley_hunter',
+      'favonius_sword',
+      'favonius_lance',
+      'the_widsith',
+    ],
   },
   400093: {
     name: 'Epitome Invocation',
@@ -2169,7 +2521,13 @@ export const banners: { [key: number]: Banner } = {
     end: '2026-02-24 14:59:00',
     color: '#ffb169',
     featured: ['lightbearing_moonshard', 'tome_of_the_eternal_flow'],
-    featuredRare: ['xiphos_moonlight', 'favonius_greatsword', 'dragons_bane', 'eye_of_perception', 'favonius_warbow'],
+    featuredRare: [
+      'xiphos_moonlight',
+      'favonius_greatsword',
+      'dragons_bane',
+      'eye_of_perception',
+      'favonius_warbow',
+    ],
   },
   400095: {
     name: 'Epitome Invocation',
@@ -2187,6 +2545,22 @@ export const banners: { [key: number]: Banner } = {
       'sacrificial_bow',
     ],
     timezoneDependent: true,
+  },
+  400096: {
+    name: 'Epitome Invocation',
+    image: 96,
+    shortName: 'Azurelight',
+    start: '2026-03-17 18:00:00',
+    end: '2026-04-07 14:59:00',
+    color: '#eae5e1',
+    featured: ['azurelight', 'symphonist_of_scents'],
+    featuredRare: [
+      'the_flute',
+      'the_bell',
+      'favonius_lance',
+      'favonius_codex',
+      'rust',
+    ],
   },
 
   500001: {

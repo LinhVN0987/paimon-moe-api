@@ -21,10 +21,16 @@ import { tallyCount } from '../stores/counter';
 import { authorization } from '../hooks/auth';
 import { WishSummaryRequest } from '../types/wishSummaryRequest';
 import { WishSummaryLuckRequest } from '../types/wishSummaryLuckRequest';
-import { wishSummary, wishSummaryLuck4, wishSummaryLuck5, wishSummaryWinRateOff4, wishSummaryWinRateOff5 } from '../stores/wishSummary';
+import {
+  wishSummary,
+  wishSummaryLuck4,
+  wishSummaryLuck5,
+  wishSummaryWinRateOff4,
+  wishSummaryWinRateOff5,
+} from '../stores/wishSummary';
 
-const LATEST_CHARACTER_BANNER = 300096;
-const LATEST_WEAPON_BANNER = 400095;
+const LATEST_CHARACTER_BANNER = 300097;
+const LATEST_WEAPON_BANNER = 400096;
 
 export default async function (server: FastifyInstance): Promise<void> {
   server.get(
@@ -77,11 +83,17 @@ export default async function (server: FastifyInstance): Promise<void> {
       }
 
       let priority = false;
-      if (req.body.banner === LATEST_CHARACTER_BANNER || req.body.banner === LATEST_WEAPON_BANNER) {
+      if (
+        req.body.banner === LATEST_CHARACTER_BANNER ||
+        req.body.banner === LATEST_WEAPON_BANNER
+      ) {
         priority = true;
       }
 
-      void wishTallyQueue.add(req.body, { removeOnComplete: true, lifo: priority });
+      void wishTallyQueue.add(req.body, {
+        removeOnComplete: true,
+        lifo: priority,
+      });
 
       if (tallyCount.added[req.body.banner] === undefined) {
         tallyCount.added[req.body.banner] = 0;

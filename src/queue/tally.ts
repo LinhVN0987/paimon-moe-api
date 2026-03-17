@@ -10,7 +10,10 @@ import { Wish } from '../entities/wish';
 
 dayjs.extend(isBetween);
 
-const queue = new Queue('wish-tally', process.env.REDIS_URL ?? 'redis://localhost:6379');
+const queue = new Queue(
+  'wish-tally',
+  process.env.REDIS_URL ?? 'redis://localhost:6379',
+);
 console.log(JSON.stringify({ message: 'wish tally summary queue init' }));
 
 export interface WishTallyResult {
@@ -192,7 +195,8 @@ async function calculateWishTally(job: Job<number>): Promise<void> {
     );
   }
 
-  const pullByDayData = await pullRepo.createQueryBuilder()
+  const pullByDayData = await pullRepo
+    .createQueryBuilder()
     .select(["date_trunc('day', time) \"day\"", 'pity', 'count(*) total'])
     .where({ banner })
     .andWhere('rarity = 4')
@@ -222,13 +226,18 @@ async function calculateWishTally(job: Job<number>): Promise<void> {
     pullByDayTotal += pull.pity * pull.total;
   }
 
-  const pullByDayPercentage = pullByDay.map(e => ({ day: e.day, percentage: e.total / pullByDayTotal }));
+  const pullByDayPercentage = pullByDay.map((e) => ({
+    day: e.day,
+    percentage: e.total / pullByDayTotal,
+  }));
 
   // calculate const list
-  const constData = await getManager().createQueryBuilder()
+  const constData = await getManager()
+    .createQueryBuilder()
     .select(['name', 'count cons', 'sum(count) total'])
     .from((subQuery) => {
-      return subQuery.select(['"wishId"', 'name', 'count(*) count'])
+      return subQuery
+        .select(['"wishId"', 'name', 'count(*) count'])
         .from(Pull, 'pull')
         .where('"bannerId" = :bid', { bid: id })
         .groupBy('"wishId"')
@@ -306,8 +315,8 @@ async function calculateWishTally(job: Job<number>): Promise<void> {
   calculated[id] = result;
 }
 
-const LATEST_CHARACTER_BANNER = 300096;
-const LATEST_WEAPON_BANNER = 400095;
+const LATEST_CHARACTER_BANNER = 300097;
+const LATEST_WEAPON_BANNER = 400096;
 const LATEST_CHRONICLED_BANNER = 500004;
 const TOTAL_BANNER = LATEST_CHARACTER_BANNER - 300009;
 const TOTAL_CHRONICLED_BANNER = LATEST_CHRONICLED_BANNER - 500000;
@@ -338,17 +347,37 @@ void queue.add('wish-tally-check', 1, { repeat: { cron: '0 */2 * * *' } });
 
 queue.on('active', (job) => {
   const time = dayjs().format();
-  console.log(JSON.stringify({ message: 'processing wish tally summary', name: job.name, id: job.data, time }));
+  console.log(
+    JSON.stringify({
+      message: 'processing wish tally summary',
+      name: job.name,
+      id: job.data,
+      time,
+    }),
+  );
 });
 
 queue.on('completed', (job) => {
   const time = dayjs().format();
-  console.log(JSON.stringify({ message: 'finished processing wish tally summary', name: job.name, id: job.data, time }));
+  console.log(
+    JSON.stringify({
+      message: 'finished processing wish tally summary',
+      name: job.name,
+      id: job.data,
+      time,
+    }),
+  );
   void job.remove();
 });
 
 queue.on('failed', (job, error) => {
-  console.log(JSON.stringify({ message: 'failed processing wish tally summary', name: job.name, id: job.data }));
+  console.log(
+    JSON.stringify({
+      message: 'failed processing wish tally summary',
+      name: job.name,
+      id: job.data,
+    }),
+  );
   console.error(error);
   void job.remove();
 });
