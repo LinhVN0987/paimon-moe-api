@@ -1037,6 +1037,17 @@ export const banners: { [key: number]: Banner } = {
     featured: ['skirk', 'escoffier'],
     featuredRare: ['dahlia', 'candace', 'charlotte'],
   },
+  300098: {
+    name: 'Ya-hoho! Compendium',
+    image: 1,
+    shortName: 'Linnea',
+    start: '2026-04-08 06:00:00',
+    end: '2026-04-28 17:59:00',
+    color: '#fcdcd0',
+    featured: ['linnea', 'chasca'],
+    featuredRare: ['illuga', 'aino', 'noelle'],
+    timezoneDependent: true,
+  },
 
   400001: {
     name: 'Epitome Invocation',
@@ -2561,6 +2572,23 @@ export const banners: { [key: number]: Banner } = {
       'favonius_codex',
       'rust',
     ],
+  },
+  400097: {
+    name: 'Epitome Invocation',
+    image: 97,
+    shortName: 'Frostbound',
+    start: '2026-04-08 06:00:00',
+    end: '2026-04-28 17:59:00',
+    color: '#ffb169',
+    featured: ['golden_frostbound_oath', 'astral_vultures_crimson_plumage'],
+    featuredRare: [
+      'flower-wreathed_feathers',
+      'lions_roar',
+      'sacrificial_greatsword',
+      'dragons_bane',
+      'eye_of_perception',
+    ],
+    timezoneDependent: true,
   },
 
   500001: {
